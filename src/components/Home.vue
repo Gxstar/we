@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import LeftBar from './LeftBar.vue'
+import RightBar from './RightBar.vue'
 import Main from './Main.vue'
 const logoUrl = ref('src/assets/logo.png')
 
@@ -19,7 +20,7 @@ const logoUrl = ref('src/assets/logo.png')
       </el-col>
       <el-col :span="4" class="main-body" style="margin: 0;">
         <el-affix :offset="0">
-          right bar
+          <RightBar />
         </el-affix>
       </el-col>
     </el-row>
