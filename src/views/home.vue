@@ -6,7 +6,7 @@ let articleList=ref({});
 function add_a() {
     console.log('点了');
     console.log(articleList);
-    articleList.value={'id':1,'title':'test标题'};
+    articleList.value={'post':{'id':1,'title':'test标题'}};
     // console.log(articleList.value['title']);
 }
 
